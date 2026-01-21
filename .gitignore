@@ -1,0 +1,9 @@
+generator.py
+up
+*.xcf
+*~
+Thumbs.db
+# Test caches
+*.pyc
+*.pyo
+
