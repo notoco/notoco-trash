@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="1.0.0" provider-name="notoco + AI">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="plugin.video.youtube" version="6.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pl">Wtyczka do oglądania poradników ze Spryciarze.pl</summary>
+        <summary lang="en">Addon for watching tutorials from Spryciarze.pl</summary>
+        <description lang="pl">
+            Przeglądaj i oglądaj tysiące poradników wideo ze strony Spryciarze.pl.
+            Kategorie obejmują: majsterkowanie, kulinaria, komputery, sztukę, sport i wiele więcej!
+
+            Funkcje:
+            - Pełna obsługa wszystkich kategorii i podkategorii
+            - Przeglądanie najnowszych i najpopularniejszych poradników
+            - Odtwarzanie wideo bezpośrednio przez wtyczkę YouTube
+            - Przejrzysta nawigacja
+        </description>
+        <description lang="en">
+            Browse and watch thousands of video tutorials from Spryciarze.pl.
+            Categories include: DIY, cooking, computers, art, sports and much more!
+
+            Features:
+            - Full support for all categories and subcategories
+            - Browse latest and most popular tutorials
+            - Video playback directly through YouTube plugin
+            - Clear navigation
+        </description>
+        <disclaimer lang="pl">Wtyczka wymaga zainstalowanej wtyczki YouTube. Wszystkie treści pochodzą ze strony Spryciarze.pl.</disclaimer>
+        <disclaimer lang="en">This addon requires YouTube plugin. All content from Spryciarze.pl.</disclaimer>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <website>https://www.spryciarze.pl</website>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+v1.0.0 (2026-01-21)
+- Pierwsza wersja wtyczki
+- Pełna obsługa kategorii i podkategorii
+- Odtwarzanie wideo przez YouTube
+- Stronicowanie wyników
+        </news>
+    </extension>
+</addon>
+</addons>
