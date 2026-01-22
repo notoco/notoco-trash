@@ -17,7 +17,7 @@
             </assets>
         </extension>
     </addon>
-<addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="1.0.0" provider-name="Claude AI">
+<addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="1.0.2" provider-name="notoco + AI">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="plugin.video.youtube" version="6.0.0"/>
@@ -57,13 +57,6 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
-        <news>
-v1.0.0 (2026-01-21)
-- Pierwsza wersja wtyczki
-- Pełna obsługa kategorii i podkategorii
-- Odtwarzanie wideo przez YouTube
-- Stronicowanie wyników
-        </news>
     </extension>
 </addon>
 </addons>
