@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="1.0.0" provider-name="notoco + AI">
+<addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="1.0.0" provider-name="Claude AI">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="plugin.video.youtube" version="6.0.0"/>
@@ -13,7 +13,7 @@
         <description lang="pl">
             Przeglądaj i oglądaj tysiące poradników wideo ze strony Spryciarze.pl.
             Kategorie obejmują: majsterkowanie, kulinaria, komputery, sztukę, sport i wiele więcej!
-
+            
             Funkcje:
             - Pełna obsługa wszystkich kategorii i podkategorii
             - Przeglądanie najnowszych i najpopularniejszych poradników
@@ -23,7 +23,7 @@
         <description lang="en">
             Browse and watch thousands of video tutorials from Spryciarze.pl.
             Categories include: DIY, cooking, computers, art, sports and much more!
-
+            
             Features:
             - Full support for all categories and subcategories
             - Browse latest and most popular tutorials
