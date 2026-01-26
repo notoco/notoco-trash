@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.swiatwedlugkiepskich" name="Świat Według Kiepskich" version="1.0.0" provider-name="notoco + AI">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.25.1"/>
+    <import addon="script.module.resolveurl" version="5.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pl">Świat Według Kiepskich - Player</summary>
+    <description lang="pl">Wtyczka do oglądania serialu Świat Według Kiepskich z kiepski-player.web.app</description>
+    <language>pl</language>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://kiepski-player.web.app/</website>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
